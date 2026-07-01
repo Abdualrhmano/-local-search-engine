@@ -1,0 +1,14 @@
+{
+  "primaryKey": "id",
+  "searchableAttributes": ["title", "content", "url", "meta_description"],
+  "displayedAttributes": ["id", "title", "url", "content", "meta_description", "published_at", "language", "domain", "fetched_at"],
+  "filterableAttributes": ["language", "domain", "published_at"],
+  "rankingRules": [
+    "words",
+    "typo",
+    "proximity",
+    "attribute",
+    "exactness",
+    "desc(published_at)"
+  ]
+}
