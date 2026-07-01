@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Local Search</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>Local Search</h1>
+      <div class="search-bar">
+        <input id="q" type="search" placeholder="Search the local index..." autocomplete="off" />
+        <button id="searchBtn">Search</button>
+      </div>
+      <div id="suggestions" class="suggestions"></div>
+    </header>
+
+    <main>
+      <div id="results"></div>
+    </main>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
